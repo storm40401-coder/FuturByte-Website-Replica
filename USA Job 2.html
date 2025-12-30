@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX Designer - Careers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .job-info span {
+      display: inline-block;
+      margin-right: 15px;
+      font-weight: 500;
+      color: #555;
+    }
+    .job-section {
+      margin-top: 20px;
+    }
+    .apply-btn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold nav-link active" href="./index.html"><h1>FUTURBYTE</h1></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <!-- Dropdown 1 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./services.html" role="button" data-bs-toggle="dropdown">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./services.html">Web Development</a></li>
+            <li><a class="dropdown-item" href="./services.html">Cloud</a></li>
+            <li><a class="dropdown-item" href="./services.html">DevOps</a></li>
+            <li><a class="dropdown-item" href="./services.html">E-commerce</a></li>
+            <li><a class="dropdown-item" href="./services.html">Mobile App Development</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown 2 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Company
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./why us.html">Why Us</a></li>
+            <li><a class="dropdown-item" href="./about us.html">About Us</a></li>
+            <li><a class="dropdown-item" href="./contact us.html">Contact Us</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown 3 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Industries
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./industries.html">Automotive</a></li>
+            <li><a class="dropdown-item" href="./industries.html">Education</a></li>
+            <li><a class="dropdown-item" href="./industries.html">Media & Entertainment</a></li>
+            <li><a class="dropdown-item" href="./industries.html">FinTech</a></li>
+            <li><a class="dropdown-item" href="./industries.html">Healthcare</a></li>
+            <li><a class="dropdown-item" href="./industries.html">On-Demand</a></li>
+            <li><a class="dropdown-item" href="./industries.html">Real Estate</a></li>
+          </ul>
+        </li>
+
+        <!-- Normal Links -->
+        <li class="nav-item">
+          <a class="nav-link" href="./career.html">Career</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cost Calculator</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./blog.html">Blogs</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container my-5">
+  <h1 class="mb-3 jobTitle">UI/UX Designer</h1>
+  <div class="job-info mb-4">
+    <span>Location: USA, California</span>
+    <span>Min Experience: 2 years</span>
+    <span>Work Level: Mid-level</span>
+    <span>Employee Type: Full-time</span>
+  </div>
+  <div class="job-section">
+    <h4>Responsibilities</h4>
+    <ul>
+      <li>Design user-friendly interfaces for web and mobile applications.</li>
+      <li>Create wireframes, prototypes, and visual assets.</li>
+      <li>Collaborate with developers to implement designs.</li>
+      <li>Conduct user research and usability testing.</li>
+    </ul>
+  </div>
+  <div class="job-section">
+    <h4>Requirements</h4>
+    <ul>
+      <li>Bachelor’s degree in Design, Computer Science, or related field.</li>
+      <li>2+ years of experience in UI/UX design.</li>
+      <li>Proficiency with Figma, Adobe XD, or Sketch.</li>
+      <li>Strong understanding of user-centered design principles.</li>
+    </ul>
+  </div>
+  <button class="btn btn-warning btn-lg applyBtn">Apply Now</button>
+</div>
+
+<!-- Slide-In Application Form -->
+<div id="jobApplyForm" style="position: fixed; top: 0; right: -100%; width: 400px; height: 100%; background-color: #FFD700; border-left: 4px solid #fff; padding: 30px; overflow-y: auto; transition: right 0.5s; z-index: 1050;">
+  <h2 class="mb-4" style="font-size: 24px; font-weight: bold;">We See You, Not Your CV!</h2>
+  
+  <form>
+    <div class="mb-3">
+      <label for="firstName" class="form-label">First Name*</label>
+      <input type="text" class="form-control" id="firstName" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name*</label>
+      <input type="text" class="form-control" id="lastName" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email*</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number*</label>
+      <input type="tel" class="form-control" id="phone" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="country" class="form-label">Country*</label>
+      <input type="text" class="form-control" id="country" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="state" class="form-label">Select State*</label>
+      <input type="text" class="form-control" id="state" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="place" class="form-label">Place*</label>
+      <input type="text" class="form-control" id="place" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="applyingFor" class="form-label">Applying For*</label>
+      <input type="text" class="form-control" id="applyingFor" readonly required>
+    </div>
+
+    <div class="mb-3">
+      <label for="designation" class="form-label">Designation*</label>
+      <input type="text" class="form-control" id="designation" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="experience" class="form-label">Year of Experience*</label>
+      <input type="number" class="form-control" id="experience" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Enter Message*</label>
+      <textarea class="form-control" id="message" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-dark w-100">Submit Application</button>
+    <button type="button" class="btn btn-outline-dark w-100 mt-2" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+  function openForm(jobTitle) {
+    document.getElementById("jobApplyForm").style.right = "0";
+    document.getElementById("applyingFor").value = jobTitle;
+  }
+
+  function closeForm() {
+    document.getElementById("jobApplyForm").style.right = "-100%";
+  }
+
+  // Attach event to all Apply Now buttons
+  const applyButtons = document.querySelectorAll(".applyBtn");
+  applyButtons.forEach(btn => {
+    btn.addEventListener("click", function() {
+      const jobTitle = this.closest(".container").querySelector(".jobTitle").innerText;
+      openForm(jobTitle);
+    });
+  });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
